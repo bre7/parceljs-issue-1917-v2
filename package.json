@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "parcel build --no-cache --detailed-report 10 --no-source-maps dev/index.html",
+    "deploy": "firebase deploy"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "node-sass-package-importer": "^5.3.2",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-imagemin": "^3.0.0",
+    "posthtml-include": "^1.2.0"
+  },
+  "resolutions": {
+    "imagemin-mozjpeg/mozjpeg": "^6.0.0"
+  }
+}
